@@ -6,9 +6,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./hello-world.component.css']
 })
 export class HelloWorldComponent implements OnInit {
-
-  constructor() { }
-
+ 
+  constructor() {
+      console.log("in constructor");
+      
+  }
+ 
   ngOnInit() {
   }
 
